@@ -9,23 +9,20 @@ public class Gra_w_zgadywanie_liczb {
     public static void main(String[] args) {
 
         Random random = new Random( );
-
         Scanner scanner = new Scanner(System.in);
 
-
-        int liczbaKomputera = random.nextInt(5);
+        int liczbaKomputera = random.nextInt(10);
         int mojaLiczba = 0;
         int liczbaProbOdgadnięc = 1;
 
-        System.out.println("Zgadnij liczbę w przedziale 0 - 5");
+        System.out.println("Zgadnij liczbę w przedziale 0 - 10");
 
         try {
-
             while (true) {
                 mojaLiczba = scanner.nextInt( );
 
                 if (liczbaKomputera  ==  mojaLiczba) {
-                    System.out.println("Brawo!. Odgadłeś za " + liczbaProbOdgadnięc + " razem.");
+                    System.out.println("Brawo! Odgadłeś za " + liczbaProbOdgadnięc + " razem.");
                     break;
                 } else if (liczbaKomputera > mojaLiczba) {
                     System.out.println("Za mało!");
