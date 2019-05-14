@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Gra_w_zgadywanie_liczb {
+public class Zgadywanie_liczb {
 
     public static void main(String[] args) {
 
