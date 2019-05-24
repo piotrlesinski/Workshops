@@ -1,4 +1,4 @@
-package plesinski.workshop1;
+package src.plesinski.workshop1;
 
 import java.util.*;
 import java.util.concurrent.TimeUnit;
