@@ -1,4 +1,4 @@
-package src.plesinski.workshop1;
+package src.plesinski.workshop1.GraWZgadywanieLiczb;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

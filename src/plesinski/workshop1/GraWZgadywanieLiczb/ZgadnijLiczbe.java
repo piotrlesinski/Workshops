@@ -1,10 +1,10 @@
-package src.plesinski.workshop1;
+package src.plesinski.workshop1.GraWZgadywanieLiczb;
 
 import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ZgadywanieLiczb {
+public class ZgadnijLiczbe {
 
     public static void main(String[] args) {
 
